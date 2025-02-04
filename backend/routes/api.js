@@ -196,6 +196,6 @@ const initdb = async () => {
       console.error("Error initializing database:", error);
     }
   };
-//initdb()
+initdb()
 
 module.exports = router;

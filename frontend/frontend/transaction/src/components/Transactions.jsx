@@ -73,7 +73,7 @@ function Transactions({ month, monthText }) {
                 }
             });
 
-            setData(data.transactions);
+            setData(data.transaction);
             setLoading(false);
             setTableParams({
                 ...tableParams,
